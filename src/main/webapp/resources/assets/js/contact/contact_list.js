@@ -17,11 +17,15 @@ document.addEventListener('DOMContentLoaded',function(){
       row.addEventListener('dblclick', function(event){
           event.preventDefault();
           let cells = row.getElementsByTagName("td");
-
+          const userId = cells[0].innerText;
+          
+          sessionStorage.setItem('userId', userId);
+        
           if(confirm('선택하신 회원에게 채팅하시겠습니까?') === false) return;
 
           //채팅으로 이어가는 href (채팅 구현 이후 수정하기)
           //window.location.href = "/ehr/user/doSelectOne.do?userId=" + userId;
+          window.location.href = "/ehr/chat/sendChat_index.do";
       });
   })
 

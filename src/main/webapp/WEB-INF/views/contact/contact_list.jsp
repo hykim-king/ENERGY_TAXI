@@ -1,4 +1,4 @@
-<%@page import="java.util.Date"%>
+\<%@page import="java.util.Date"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@page import="com.pcwk.ehr.cmn.StringUtil"%>
@@ -91,8 +91,8 @@
                     <option value = "100"<c:if test = "${100 == search.pageSize}">selected</c:if> >100</option>
                 </select>
                 <input type="button" value="조회" id="doRetrieveBtn">
-                <input type="button" value="등록" id="moveToRegBtn">
-            </div>
+                <input type="button" value="등록" id="moveToRegBtn">  
+            </div>  
         </form>
     
         <table border="1" id="listTable" class="table">

@@ -6,8 +6,6 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.sql.DataSource;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -63,10 +61,7 @@ public class UserDaoJdbc implements UserDao {
 
 	}
 
-	public String formateDate(String date) {
 
-		return date.split(" ")[0];
-	}
 
 	@Override
 	public int doDelete(UserVO inVO) throws SQLException {
