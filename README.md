@@ -16,7 +16,7 @@
 <br>            
 
   
-### ❓ 사용 기술
+## ❓ 사용 기술
 <img src="img/front.png" width="150" height="70" /><img src="img/GIT.jpg" width="150" height="70" /><img src="img/javaimg.png" width="150" height="70" />      
 <img src="img/jsp.png" width="150" height="70" /><img src="img/oracle.png" width="150" height="70" /><img src="img/spring.png" width="150" height="70" />    
 
